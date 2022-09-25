@@ -5,10 +5,10 @@ text-align: center;
 }
 .wrapper>*{
     padding: 10px;
-   /* margin: 5px;
-*/    flex: 1 100%;
-    border-radius: 5px;
-}
+   
+   flex: 1 100%;
+    border-radius: 1px;
+    }
 .header{
     background-color: tomato;
     height: 120px;
@@ -17,7 +17,7 @@ text-align: center;
 .main{
     text-align: center;
     background-color: deepskyblue;
-    height: 300px;
+    height: 600px;
     font-size: 25px;  
 }
 .aside1{
@@ -52,18 +52,6 @@ text-align: center;
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer{
     background-color: gray;
