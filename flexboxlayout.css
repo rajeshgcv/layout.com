@@ -1,7 +1,7 @@
 .wrapper{
     display: flex;
     flex-flow: row wrap;
-text-align: center;
+
 }
 .wrapper>*{
     padding: 10px;
@@ -13,12 +13,47 @@ text-align: center;
     background-color: tomato;
     height: 120px;
 
+
 }
+.logo{
+    height: 100px;
+    width: 150px;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    display: inline-flex;
+    padding: 10px;
+    
+    
+}
+ul li{
+    display: block;
+position: absolute;
+top: 40px;
+left: 400px;
+justify-content:space-around 50px;
+}
+ul li:hover{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+color:aliceblue;
+}
+.asidemahi{
+    color:blue;
+}
+
 .main{
     text-align: center;
-    background-color: deepskyblue;
-    height: 3000px;
+    background-color: white;
+    height: 2500px;
     font-size: 25px;  
+}
+.img1{
+    border: 5px solid brown;
 }
 .aside1{
     background-color: yellow;
